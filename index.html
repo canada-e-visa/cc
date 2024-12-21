@@ -65,16 +65,28 @@
 
       <label for="issueDate" class="required">date of issue of passport</label>
       <div class="date-container">
-        <select id="issueDay" name="issueDay" required class="date-field"></select>
-        <select id="issueMonth" name="issueMonth" required class="date-field"></select>
-        <select id="issueYear" name="issueYear" required class="date-field"></select>
+        <select id="issueDay" name="issueDay" required class="date-field">
+          <option value="">Please select</option>
+        </select>
+        <select id="issueMonth" name="issueMonth" required class="date-field">
+          <option value="">Please select</option>
+        </select>
+        <select id="issueYear" name="issueYear" required class="date-field">
+          <option value="">Please select</option>
+        </select>
       </div>
 
       <label for="expiryDate" class="required">date of expiry of passport</label>
       <div class="date-container">
-        <select id="expiryDay" name="expiryDay" required class="date-field"></select>
-        <select id="expiryMonth" name="expiryMonth" required class="date-field"></select>
-        <select id="expiryYear" name="expiryYear" required class="date-field"></select>
+        <select id="expiryDay" name="expiryDay" required class="date-field">
+          <option value="">Please select</option>
+        </select>
+        <select id="expiryMonth" name="expiryMonth" required class="date-field">
+          <option value="">Please select</option>
+        </select>
+        <select id="expiryYear" name="expiryYear" required class="date-field">
+          <option value="">Please select</option>
+        </select>
       </div>
 
       <button type="button" onclick="checkStatus()">check status</button>
