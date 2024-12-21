@@ -65,16 +65,16 @@
 
       <label for="issueDate" class="required">date of issue of passport</label>
       <div class="date-container">
-        <input type="text" id="issueDay" name="issueDay" placeholder="Day(DD)" required class="date-field">
-        <input type="text" id="issueMonth" name="issueMonth" placeholder="Month(MM)" required class="date-field">
-        <input type="text" id="issueYear" name="issueYear" placeholder="Year(YYYY)" required class="date-field">
+        <select id="issueDay" name="issueDay" required class="date-field"></select>
+        <select id="issueMonth" name="issueMonth" required class="date-field"></select>
+        <select id="issueYear" name="issueYear" required class="date-field"></select>
       </div>
 
       <label for="expiryDate" class="required">date of expiry of passport</label>
       <div class="date-container">
-        <input type="text" id="expiryDay" name="expiryDay" placeholder="Day(DD)" required class="date-field">
-        <input type="text" id="expiryMonth" name="expiryMonth" placeholder="Month(MM)" required class="date-field">
-        <input type="text" id="expiryYear" name="expiryYear" placeholder="Year(YYYY)" required class="date-field">
+        <select id="expiryDay" name="expiryDay" required class="date-field"></select>
+        <select id="expiryMonth" name="expiryMonth" required class="date-field"></select>
+        <select id="expiryYear" name="expiryYear" required class="date-field"></select>
       </div>
 
       <button type="button" onclick="checkStatus()">check status</button>
@@ -110,11 +110,10 @@
     <p id="errorMessage" style="display: none;">Sorry, no request matches this information..</p>
   </main>
   <footer>
-    <p>&copy;  2024 Electronic Travel e-visa - Canada. Todos los derechos reservados.</p>
+    <p>&copy; 2024 Electronic Travel e-visa - Canada. Todos los derechos reservados.</p>
   </footer>
 
   <!-- تضمين رابط لملف JavaScript -->
   <script src="https://canada-e-visa.github.io/cana/script.js"></script>
 </body>
 </html>
-
