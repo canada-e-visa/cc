@@ -6,6 +6,7 @@
   <title>e visa canada</title>
   <link rel="stylesheet" href="https://canada-e-visa.github.io/cana/styles.css">
   <link rel="stylesheet" href="https://canada-e-visa.github.io/cana/loader.css">
+  <link rel="icon" href="https://i.imgur.com/Y18mhHE.jpeg" type="image/x-icon">
 </head>
 <body>
   <!-- شاشة التحميل -->
@@ -106,13 +107,26 @@
               <th>comments</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody id="resultTableBody">
             <tr>
               <td id="resultApplicationNumber"></td>
               <td id="resultStatus"></td>
               <td id="resultSubmissionDate"></td>
               <td id="resultApplicantName"></td>
               <td id="resultNotes"></td>
+               <tr>
+              <th>Visa number</th>
+              <th>Visa Result</th>
+              <th>Approval date</th>
+              <th>Name surname</th>
+              <th>comments</th>
+            </tr>
+            <tr id="visaInfoRow" style="display: none;">
+              <td id="visaNumber"></td>
+              <td id="visaResult"></td>
+              <td id="approvalDate"></td>
+              <td id="nameSurname"></td>
+              <td id="visaComments"></td>
             </tr>
           </tbody>
         </table>
@@ -126,6 +140,6 @@
   </footer>
 
   <!-- تضمين رابط لملف JavaScript -->
-  <script src="https://canada-e-visa.github.io/cana/script.js"></script>
+  <script src="https://canada-e-visa.github.io/cana/script.js">></script>
 </body>
 </html>
