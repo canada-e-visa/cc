@@ -107,7 +107,7 @@
               <th>comments</th>
             </tr>
           </thead>
-          <tbody id="resultTableBody">
+          <tbody>
             <tr>
               <td id="resultApplicationNumber"></td>
               <td id="resultStatus"></td>
@@ -117,27 +117,31 @@
             </tr>
           </tbody>
         </table>
-        <table border="1" style="margin-top: 20px;">
-          <thead>
-            <tr>
-              <th>Visa number</th>
-              <th>Visa Result</th>
-              <th>Approval date</th>
-              <th>Name surname</th>
-              <th>comments</th>
-            </tr>
-          </thead>
-          <tbody id="visaTableBody">
-            <tr id="visaInfoRow" style="display: none;">
-              <td id="visaNumber"></td>
-              <td id="visaResult"></td>
-              <td id="approvalDate"></td>
-              <td id="nameSurname"></td>
-              <td id="visaComments"></td>
-            </tr>
-          </tbody>
-        </table>
       </div>
+    </div>
+
+    <div id="additionalTableContainer" style="display: none;">
+      <h2>Visa Details</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Visa number</th>
+            <th>Visa Result</th>
+            <th>Approval date</th>
+            <th>Name and surname</th>
+            <th>Comments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="visaNumber"></td>
+            <td id="visaResult"></td>
+            <td id="approvalDate"></td>
+            <td id="nameSurname"></td>
+            <td id="visaComments"></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <p id="errorMessage" style="display: none;">Sorry, no request matches this information..</p>
